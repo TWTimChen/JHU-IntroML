@@ -1,0 +1,30 @@
+Task 1: Breast Cancer
+Type  : Classification
+Average accuracy over all the folds: 65.77%
+Accuracy on the test set: 65.47%
+--------------------
+Task 2: Car Evaluation
+Type  : Classification
+Average accuracy over all the folds: 70.18%
+Accuracy on the test set: 70.35%
+--------------------
+Task 3: Congressional Vote
+Type  : Classification
+Average accuracy over all the folds: 61.76%
+Accuracy on the test set: 61.63%
+--------------------
+Task 4: Abalone
+Type  : Regression
+Average MSE over all the folds:    10.4359
+MSE on the test set:    10.2559
+--------------------
+Task 5: Computer Hardware
+Type  : Regression
+Average MSE over all the folds: 24890.2605
+MSE on the test set: 31707.2717
+--------------------
+Task 6: Forest Fires
+Type  : Regression
+Average MSE over all the folds:     2.0021
+MSE on the test set:     1.8079
+--------------------
