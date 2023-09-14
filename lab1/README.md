@@ -1,6 +1,6 @@
-# Project Title: Toolkit for Course EN.605.649.01 - Intro to Machine Learning
+# ML Toolkit
 
-A brief description about your project can be placed here, providing context to users or developers who come across your repository.
+A toolkit for the crouse for Course EN.605.649.01 - Intro to Machine Learning.
 
 ## Table of Contents
 
