@@ -1,6 +1,6 @@
 # ML Toolkit
 
-A toolkit for the crouse for Course EN.605.649.01 - Intro to Machine Learning.
+A toolkit for the Course EN.605.649.01 - Intro to Machine Learning.
 
 ## Table of Contents
 
