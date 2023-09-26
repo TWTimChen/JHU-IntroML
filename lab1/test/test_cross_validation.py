@@ -1,7 +1,7 @@
 import unittest
 import numpy as np
 import pandas as pd
-from src.cross_validation import train_test_split, k_fold_split
+from mltk.cross_validation import train_test_split, k_fold_split
 
 class TestTrainTestSplit(unittest.TestCase):
 

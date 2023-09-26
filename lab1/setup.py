@@ -1,12 +1,11 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
-    name='custom_ml_toolkit',
+    name='mltk',
     version='0.1',
-    packages=find_packages(),
+    packages=['mltk'],
     install_requires=[
         'numpy',
         'pandas',
-        'unittest'
     ],
 )

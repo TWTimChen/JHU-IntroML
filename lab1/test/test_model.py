@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from src.models import NullModel
+from mltk.models import NullModel
 
 class TestNullModel(unittest.TestCase):
 

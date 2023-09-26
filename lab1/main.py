@@ -1,8 +1,8 @@
-from src.loader import load_data
-from src.preprocessing import DataPipeline
-from src.cross_validation import train_test_split, k_fold_split
-from src.evaluation_metrics import accuracy, mean_squared_error
-from src.models import NullModel
+from mltk.loader import load_data
+from mltk.preprocessing import DataPipeline
+from mltk.cross_validation import train_test_split, k_fold_split
+from mltk.evaluation_metrics import accuracy, mean_squared_error
+from mltk.models import NullModel
 import copy
 import numpy as np
 

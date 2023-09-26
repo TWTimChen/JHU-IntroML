@@ -1,6 +1,6 @@
 import unittest
 import pandas as pd
-from src.preprocessing import DataPipeline
+from mltk.preprocessing import DataPipeline
 
 class TestDataPipeline(unittest.TestCase):
 

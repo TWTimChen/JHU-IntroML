@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from src import evaluation_metrics as em
+from mltk import evaluation_metrics as em
 
 class TestEvaluationMetrics(unittest.TestCase):
 

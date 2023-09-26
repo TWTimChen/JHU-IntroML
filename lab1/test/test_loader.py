@@ -2,7 +2,7 @@ import unittest
 import pandas as pd
 import tempfile
 import os
-from src.loader import load_data
+from mltk.loader import load_data
 
 class TestLoadData(unittest.TestCase):
 
