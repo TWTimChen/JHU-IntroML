@@ -50,7 +50,7 @@ class DataPipeline:
         return df
 
     def _handle_ordinal_data(self, df: pd.DataFrame, column: str, mapping: Dict[str, Union[int, float]]) -> pd.DataFrame:
-        df[column] = df[column].replace(mapping)
+        df[column] = df[column].replace(mapping).astype('int64')
         return df
 
     def _one_hot_encode(self, df: pd.DataFrame, column: str) -> pd.DataFrame:
@@ -68,7 +68,7 @@ class DataPipeline:
         df[column] = (df[column] - np.mean(df[column])) / np.std(df[column], ddof=1)
         return df
     
-    def _function_fransformer(self, df: pd.DataFrame, column: str, func: callable) -> pd.DataFrame:
+    def _function_transformer(self, df: pd.DataFrame, column: str, func: callable) -> pd.DataFrame:
         df[column] = df[column].apply(func)
         return df
 
@@ -94,7 +94,7 @@ class DataPipeline:
                 "discretize_equal_width": self._discretize_equal_width,
                 "discretize_equal_frequency": self._discretize_equal_frequency,
                 "standardize": self._standardize,
-                "function_fransformer": self._function_fransformer
+                "function_transformer": self._function_transformer
             }
 
             # Get the function to execute from the dictionary and call it

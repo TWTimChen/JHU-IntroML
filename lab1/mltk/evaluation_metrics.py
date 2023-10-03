@@ -29,6 +29,10 @@ def pairwise_comparison(func):
 def accuracy(y_true, y_pred):
     return np.mean(y_true == y_pred)
 
+@pairwise_comparison
+def accuracy_with_error(y_true, y_pred, epsilon):
+    return np.mean(np.abs(y_true - y_pred) <= epsilon)
+
 def _get_classes(y_true):
     classes = np.unique(y_true)
     if len(classes) != 2:
