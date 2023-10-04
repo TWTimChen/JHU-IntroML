@@ -1,0 +1,18 @@
+Performing grid search for standard k-NN...
+Best k-NN params: {'k': 3, 'epsilon': None, 'gamma': None}
+Best k-NN score: 0.98
+Average k-NN score: 0.97
+Standard deviation of k-NN score: 0.0106
+Test score: 0.98
+Performing grid search for edited k-NN...
+Best Edited k-NN params: {'k': 5, 'epsilon': None, 'gamma': None}
+Best Edited k-NN score: 0.97
+Average Edited k-NN score: 0.97
+Standard deviation of Edited k-NN score: 0.0145
+Test score: 0.98
+Performing grid search for condensed k-NN...
+Best Condensed k-NN params: {'k': 7, 'epsilon': None, 'gamma': None}
+Best Condensed k-NN score: 0.96
+Average Condensed k-NN score: 0.97
+Standard deviation of Condensed k-NN score: 0.0154
+Test score: 0.96
